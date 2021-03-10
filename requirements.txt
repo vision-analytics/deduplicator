@@ -1,0 +1,8 @@
+annoy
+matplotlib
+numpy
+opencv-python
+tensorflow==2.3.1
+tqdm
+jupyter
+notebook
