@@ -10,5 +10,5 @@ def print_status(text):
     sys.stdout.write("{}\r".format(text))
     sys.stdout.flush()
 
-def calculate_md5(file_name):
+def calculate_md5_hash(file_name):
     return hashlib.md5(open(file_name,'rb').read()).hexdigest()
